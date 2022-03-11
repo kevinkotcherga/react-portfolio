@@ -30,7 +30,7 @@ export const Contact = () => {
             <input type="text" placeholder='Sujet' name='user_subject' />
             <input type="text" placeholder='Email' name='user_email' />
             <textarea rows='5' placeholder='Message' name='message' />
-            <button>Envoyer</button>
+            <button>ENVOYER</button>
             { done && "Message envoyé" }
           </form>
         </div>

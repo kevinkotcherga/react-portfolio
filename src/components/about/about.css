@@ -46,7 +46,7 @@
 
 .a-title{
   font-size: 10rem;
-  font-weight: 700;
+  font-weight: 900;
   text-align: right;
 }
 
@@ -68,4 +68,8 @@
   margin: 40px 0px;
   font-size: 1.4rem;
   text-align: right;
+}
+
+.bold-span {
+  font-weight: 700;
 }
