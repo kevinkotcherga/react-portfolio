@@ -15,8 +15,9 @@ const About = () => {
       </div>
       <div className="a-right">
         <h1 className="a-title">A PROPOS DE MOI</h1>
-        <p className="a-sub">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus repellendus deleniti consequatur culpa, animi placeat, beatae voluptate quibusdam ipsum iusto quo accusantium. Nemo natus accusantium cupiditate, explicabo fugit dolor temporibus.</p>
-        <p className="a-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum tempora a laborum? Officiis doloremque a error distinctio blanditiis, reiciendis eaque praesentium cumque doloribus magni, facilis accusamus libero est quos consequatur.</p>
+        <p className="a-sub">Il y a quelques mois j'ai découvert les joies du code.</p>
+        <p className="a-desc">Je me suis reconverti en Développeur Fullstack Ruby on Rails grâce au bootcamp de 9 semaines du Wagon.</p>
+        <p className="a-desc-bottom">Aujourd'hui je parfaire mes compétences et me spéciale dans Node.js et React.</p>
       </div>
     </div>
   )

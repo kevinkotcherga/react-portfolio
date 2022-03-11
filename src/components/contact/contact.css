@@ -1,15 +1,9 @@
 .c{
   height: 100vh;
+  padding: 0px 100px;
   position: relative;
   background-color: #fefefe;
   color: #000;
-}
-
-.c-bg{
-  width: 20px;
-  height: 100%;
-  background-color: #E1DFDE;
-  position: absolute;
 }
 
 .c-wrapper{
@@ -22,7 +16,7 @@
 }
 
 .c-left h1 {
-  font-size: 5rem;
+  font-size: 10rem;
   font-weight: 700;
 }
 
