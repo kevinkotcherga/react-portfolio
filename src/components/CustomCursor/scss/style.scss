@@ -1,7 +1,6 @@
 .main-cursor,
 .secondary-cursor {
   z-index: 10000;
-
   pointer-events: none;
   // overflow: hidden;
   transform: translate3d(0, 0, 0);
