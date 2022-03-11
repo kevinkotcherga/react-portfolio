@@ -2,6 +2,8 @@
   height: 100vh;
   display: flex;
   align-items: center;
+  background-color: #fefefe;
+  color: #000
 }
 
 .a-left{
@@ -21,7 +23,7 @@
   position: absolute;
   top: 50px;
   left: 50px;
-  background-color: #333;
+  background-color: #E1DFDE;
 }
 
 .a-card {
@@ -37,8 +39,9 @@
   object-fit: none;
 }
 
-a-title{
-  font-weight: 400;
+.a-title{
+  font-size: 5rem;
+  font-weight: 700;
 }
 
 .a-sub{
