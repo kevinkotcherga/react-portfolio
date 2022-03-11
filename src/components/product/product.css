@@ -2,27 +2,32 @@
   width: 30%;
   height: 40vh;
   margin: 20px 10px;
-  border: 6px solid #000;
-  border-radius: 10px 10px 0px 0px;
+  border-left: 6px solid #000;
+  border-top: 6px solid #000;
+  border-right: 20px solid #000;
+  border-bottom: 20px solid #000;
+  border-radius: 15px;
+  border-bottom-left-radius: 30px;
+  border-top-right-radius: 30px;
   overflow: hidden;
 }
 
-.p-browser{
+/* .p-browser{
   height: 20px;
   background-color: #000;
   display: flex;
   align-items: center;
   position: sticky;
   z-index: 2;
-}
+} */
 
-.p-circle{
+/* .p-circle{
   width: 6px;
   height: 6px;
   border-radius: 50%;
   background-color: white;
   margin: 3px;
-}
+} */
 
 .p-img {
   width: 100%;
@@ -31,4 +36,9 @@
 
 .p:hover .p-img{
   transform: translateY(-100%)
+}
+
+.link{
+  margin: 0;
+  padding: 0;
 }

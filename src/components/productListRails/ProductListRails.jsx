@@ -1,6 +1,6 @@
 import './productListRails.css'
 import Product from "../product/Product"
-import { products } from '../../data'
+import { productRails } from '../../data'
 
 export const ProductListRails = () => {
   return (
@@ -12,7 +12,7 @@ export const ProductListRails = () => {
         </p> */}
       </div>
       <div className="pl-list">
-        { products.map((item) =>(
+        { productRails.map((item) =>(
           <Product key={item.id} img={item.img} link={item.link} />
         ))}
       </div>
