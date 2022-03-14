@@ -6,7 +6,7 @@ export const ProductList = () => {
   return (
     <div className="pl">
       <div className="pl-texts">
-        <h1 className="pl-title">CREATION <br/> NODE.JS & <br/>REACT</h1>
+        <h1 className="pl-title">CREATION <br/> NODE.JS & REACT</h1>
         {/* <p className="pl-desc">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eius sint recusandae, nostrum cumque sequi vero dolores, adipisci eos hic modi iusto magni officia libero! Quam error nemo libero laudantium!
         </p> */}
