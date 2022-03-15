@@ -1,7 +1,7 @@
 import Computer from '../../img/computer.png'
 import { AiOutlineArrowDown } from "react-icons/ai";
 
-import "./intro.css";
+import "./intro.scss";
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -37,10 +37,11 @@ const Intro = () => {
         </div>
 
         <div className="i-container-big-desc">
-          <h2 data-aos='fade-up' data-aos-duration="2000">DEVELOPPEUR WEB</h2>
+          <h2 data-aos='fade-up' data-aos-duration="2000">DEVELOPPEUR <br/>WEB</h2>
+          <img data-aos='fade-up' src={Computer} alt="computer" className='i-img' />
         </div>
 
-         <img data-aos='fade-up' src={Computer} alt="computer" className='i-img' />
+
 
         <div data-aos='fade-up' className="i-container-big-name">
           <AiOutlineArrowDown size={200}
