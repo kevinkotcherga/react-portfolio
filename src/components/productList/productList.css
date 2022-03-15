@@ -18,7 +18,7 @@
   font-weight: 900;
   text-align: center;
   margin: auto;
-  margin-bottom: 100px;
+  margin-bottom: 200px;
 }
 
 .pl-desc{
@@ -30,4 +30,5 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-bottom: 100px;
 }

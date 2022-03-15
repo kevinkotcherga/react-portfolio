@@ -9,8 +9,8 @@ import { useEffect } from 'react';
 export const Contact = () => {
 
     useEffect(() => {
-    AOS.init({duration: 1000});
-  }, []);
+        AOS.init({duration: 1000});
+    }, []);
 
   const form = useRef();
   const [done, setDone] = useState(false);

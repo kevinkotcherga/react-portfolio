@@ -16,7 +16,7 @@ export const ProductListRails = () => {
   return (
     <div className="pl">
       <div className="pl-texts">
-        <h1 data-aos='fade-up' className="plr-title">CREATION <br/> RUBY ON <br/>RAILS</h1>
+        <h1 data-aos='fade-up' className="plr-title">CREATION RUBY ON RAILS</h1>
         {/* <img src={cassette} alt="" /> */}
         {/* <p className="pl-desc">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eius sint recusandae, nostrum cumque sequi vero dolores, adipisci eos hic modi iusto magni officia libero! Quam error nemo libero laudantium!
