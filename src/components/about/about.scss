@@ -1,37 +1,17 @@
 .a{
-  padding: 0px 100px;
+  padding: 30vh 5vw;
   display: flex;
   align-items: center;
   background-color: #fefefe;
   color: #000;
-  padding-bottom: 20vh;
-}
-
-.a-left{
-  display: flex;
-  position: relative;
 }
 
 .a-right{
-  padding-left: 20px;
-}
-
-.a-card.bg{
-  position: absolute;
-  top: 50px;
-  left: 50px;
-  background-color: #E1DFDE;
-}
-
-.a-card {
-  width: 60%;
-  height: 70vh;
-  border-radius: 30px;
-  position: relative;
+  padding-left: 5vw;
 }
 
 .a-img{
-  width: 40vw;
+  width: 35vw;
 }
 
 .a-title{
@@ -42,20 +22,21 @@
 
 .a-sub{
   font-weight: 600;
-  margin: 40px 0px;
+  margin: 3vh 0px;
   font-size: 2vw;
   text-align: right;
 }
 
 .a-desc{
+  margin: 3vh 0px;
   font-weight: 400;
   font-size: 1.6vw;
-  text-align: left;
+  text-align: right;
 }
 
 .a-desc-bottom{
+  margin: 3vh 0px;
   font-weight: 300;
-  margin: 40px 0px;
   font-size: 1.5vw;
   text-align: right;
 }

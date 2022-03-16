@@ -1,5 +1,5 @@
 import { useRef, useState } from 'react';
-import './contact.css';
+import './contact.scss';
 import emailjs from '@emailjs/browser';
 
 import AOS from 'aos';
@@ -29,10 +29,11 @@ export const Contact = () => {
 
   return (
     <div className="c" id="contact">
+
       <div className="c-wrapper">
-        <div className="c-left">
+
           <h1 data-aos='fade-up'>RENCONTRONS NOUS</h1>
-        </div>
+
         <div className="c-right">
           <form ref={form} onSubmit={sendEmail} className='form-container'>
             <input type="text" placeholder='Nom' name='user_name' />
@@ -43,6 +44,7 @@ export const Contact = () => {
             { done && "Message envoyé" }
           </form>
         </div>
+
       </div>
     </div>
   )
