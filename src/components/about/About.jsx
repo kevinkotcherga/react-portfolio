@@ -13,15 +13,15 @@ const About = () => {
 
   return (
     <div className="a">
-      <div className="a-left">
 
+      <div className="a-left">
           <img
             src={window}
             alt=''
             className='a-img'
           />
-
       </div>
+
       <div className="a-right">
         <h1 data-aos='fade-up' className="a-title">A PROPOS DE MOI</h1>
         <p data-aos='fade-up' className="a-sub">Il y a quelques mois j'ai découvert les joies du code.</p>

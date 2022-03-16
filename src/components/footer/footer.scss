@@ -1,0 +1,28 @@
+.f{
+  margin-top: 20vh;
+  height: 10vh;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 100px;
+
+  .f-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2vw;
+  font-weight: 600;
+  }
+}
+
+.heart{
+  width: 1.1vw;
+  margin: 0 7px;
+}
+
+.arrow-up {
+  width: 2vw;
+  margin-left: 10px;
+}

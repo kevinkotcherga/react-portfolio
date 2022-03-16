@@ -1,4 +1,4 @@
-import './productList.css'
+import './productList.scss'
 import Product from "./../product/Product"
 import { productReacts } from '../../data'
 
