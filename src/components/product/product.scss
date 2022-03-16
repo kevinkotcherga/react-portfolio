@@ -42,3 +42,13 @@
   margin: 0;
   padding: 0;
 }
+
+// MEDIA QUERIES
+
+@media screen and (max-width: 480px) {
+  .p{
+    width: 90%;
+    height: 30vh;
+    margin: 2vh 0;
+  }
+}
