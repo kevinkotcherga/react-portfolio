@@ -45,7 +45,8 @@
 }
 
 .a-title{
-  font-size: 10rem;
+  font-size: 12rem;
+  letter-spacing: -.5vw;
   font-weight: 900;
   text-align: right;
 }
