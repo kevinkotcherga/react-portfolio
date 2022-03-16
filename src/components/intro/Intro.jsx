@@ -51,7 +51,7 @@ const Intro = () => {
 
         <div data-aos='fade-up' className="i-container-big-name">
           <img className="arrow" src={Arrow} alt="" />
-          <h1 data-aos='fade-up' data-aos-duration="2000">KEVIN <br/> KOTCHERGA</h1>
+          <h1>KEVIN <br/> KOTCHERGA</h1>
         </div>
 
       </div>

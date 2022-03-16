@@ -1,13 +1,14 @@
 .a{
-  padding: 30vh 5vw 20vh 5vw;
+  padding: 0 5vw;
+  margin: 35vh 0;
   display: flex;
   align-items: center;
   background-color: #fefefe;
   color: #000;
 }
 
-.a-right{
-  padding-left: 5vw;
+.a-left{
+  padding-right: 5vw;
 }
 
 .a-img{
@@ -17,30 +18,38 @@
 .a-title{
   font-size: 9vw;
   font-weight: 900;
-  text-align: right;
+  text-align: left;
 }
 
 .a-sub{
   font-weight: 600;
   margin: 3vh 0px;
   font-size: 2vw;
-  text-align: right;
+  text-align: left;
 }
 
 .a-desc{
   margin: 3vh 0px;
   font-weight: 400;
   font-size: 1.6vw;
-  text-align: right;
+  text-align: left;
 }
 
 .a-desc-bottom{
   margin: 3vh 0px;
   font-weight: 300;
   font-size: 1.5vw;
-  text-align: right;
+  text-align: left;
 }
 
 .bold-span {
   font-weight: 700;
+}
+
+// MEDIA QUERIES
+
+@media screen and (max-width: 480px) {
+  .a {
+    flex-direction: column;
+  }
 }
