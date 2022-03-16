@@ -8,13 +8,12 @@
 }
 
 .a-left{
-  flex:1;
   display: flex;
   position: relative;
 }
 
 .a-right{
-  flex:1;
+  padding-left: 20px;
 }
 
 .a-card.bg{

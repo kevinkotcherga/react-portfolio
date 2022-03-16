@@ -1,6 +1,6 @@
 import Computer from '../../img/computer.png'
-import { AiOutlineArrowDown } from "react-icons/ai";
 import Arrow from '../../img/arrow.svg'
+import { HashLink } from 'react-router-hash-link';
 
 import "./intro.scss";
 
@@ -15,26 +15,31 @@ const Intro = () => {
   }, []);
 
   return (
-    <div className="i">
+    <div className="i" id="i">
       <div className="i-container">
 
         <div className="i-header">
-          <div data-aos='fade-up' data-aos-duration="1000" className="i-name-header">
-            Kevin Kotcherga
+
+          <div className="i-desc-header">
+            <div data-aos='fade-up' data-aos-duration="1000" className="i-name-header">
+              Kevin Kotcherga
+            </div>
+            <div data-aos='fade-up' data-aos-duration="1500" className="i-stack-header">
+              FullStack Node.js, React & Ruby On rails
+            </div>
+            <div data-aos='fade-up' data-aos-duration="2000" className="i-city-header">
+              Basé à Paris
+            </div>
           </div>
-          <div data-aos='fade-up' data-aos-duration="1500" className="i-desc-header">
-            FullStack Node.js, React & Ruby On rails
-          </div>
-          <div data-aos='fade-up' data-aos-duration="2000" className="i-city-header">
-            Basé à Paris
-          </div>
+
           <div className="i-nav-header">
             <ul>
-              <li data-aos='fade-up' data-aos-duration="1000">Projets,</li>
-              <li data-aos='fade-up' data-aos-duration="2000">Profil,</li>
-              <li data-aos='fade-up' data-aos-duration="3000">Contact</li>
+              <li data-aos='fade-up' data-aos-duration="1000"><HashLink smooth to="/#projects">Projets,</HashLink></li>
+              <li data-aos='fade-up' data-aos-duration="2000"><HashLink smooth to="/#profil">Profil,</HashLink></li>
+              <li data-aos='fade-up' data-aos-duration="3000"><HashLink smooth to="/#contact">Contact</HashLink></li>
             </ul>
           </div>
+
         </div>
 
         <div className="i-container-big-desc">

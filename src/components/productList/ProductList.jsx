@@ -13,7 +13,7 @@ export const ProductList = () => {
   }, []);
 
   return (
-    <div className="pl">
+    <div className="pl" id="projects">
       <div className="pl-texts">
         <h1 data-aos='fade-up' className="pl-title">CREATION <br/> NODE.JS & REACT</h1>
         {/* <p className="pl-desc">

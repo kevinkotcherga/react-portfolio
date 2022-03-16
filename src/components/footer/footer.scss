@@ -8,21 +8,30 @@
   align-items: center;
   padding: 0px 100px;
 
-  .f-text {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.2vw;
-  font-weight: 600;
-  }
+
+    a {
+        color: #fff;
+      }
+
+    a:link {
+      text-decoration: none;
+    }
+
+    .f-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2vw;
+    font-weight: 600;
+    }
 }
 
 .heart{
   width: 1.1vw;
-  margin: 0 7px;
+  margin: 0 10px;
 }
 
 .arrow-up {
-  width: 2vw;
+  width: 1.1vw;
   margin-left: 10px;
 }

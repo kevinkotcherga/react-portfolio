@@ -12,7 +12,7 @@ const About = () => {
   }, []);
 
   return (
-    <div className="a">
+    <div className="a" id="profil">
 
       <div className="a-left">
           <img

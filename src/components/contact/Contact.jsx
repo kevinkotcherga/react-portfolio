@@ -28,7 +28,7 @@ export const Contact = () => {
   };
 
   return (
-    <div className="c">
+    <div className="c" id="contact">
       <div className="c-wrapper">
         <div className="c-left">
           <h1 data-aos='fade-up'>RENCONTRONS NOUS</h1>
