@@ -9,7 +9,7 @@ import { useEffect } from 'react';
 export const Contact = () => {
 
     useEffect(() => {
-        AOS.init({duration: 1000});
+        AOS.init();
     }, []);
 
   const form = useRef();
