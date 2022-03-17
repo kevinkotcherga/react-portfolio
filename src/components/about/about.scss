@@ -50,6 +50,33 @@
 
 @media screen and (max-width: 480px) {
   .a {
+    margin: 20vh 0;
     flex-direction: column;
   }
+
+  .a-title{
+    font-size: 9vh;
+    text-align: center;
+  }
+
+  .a-sub{
+    font-size: 5vh;
+    text-align: center;
+  }
+
+  .a-desc{
+    font-size: 3vh;
+    text-align: center;
+  }
+
+  .a-desc-bottom{
+    font-size: 2vh;
+    text-align: center;
+  }
+
+  .a-img{
+    width: 35vh;
+    margin-top: 10vh;
+  }
+
 }

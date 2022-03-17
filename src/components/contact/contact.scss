@@ -56,3 +56,13 @@ form{
     color: #fefefe;
   }
 }
+
+// MEDIA QUERIES
+
+@media screen and (max-width: 480px) {
+  h1{
+    text-align: center;
+    font-size: 9vh;
+    overflow-wrap: break-word;
+  }
+}

@@ -50,5 +50,12 @@
     width: 90%;
     height: 30vh;
     margin: 2vh 0;
+    border-left: 0.5vh solid #000;
+    border-top: 0.5vh solid #000;
+    border-right: 1.2vh solid #000;
+    border-bottom: 1.2vh  solid #000;
+    border-radius: 1.2vh;
+    border-bottom-left-radius: 1vh;
+    border-top-right-radius: 1vh;
   }
 }
