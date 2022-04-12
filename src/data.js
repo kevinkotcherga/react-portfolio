@@ -49,6 +49,6 @@ export const productRails = [
 	{
 		id: 5,
 		img: portfolio,
-		link: 'https://kevinkotcherga.herokuapp.com/',
-	}
+		link: 'https://kevinkotcherga-portfolio.herokuapp.com/',
+	},
 ];
