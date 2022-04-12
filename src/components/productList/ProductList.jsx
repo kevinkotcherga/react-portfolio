@@ -16,11 +16,8 @@ export const ProductList = () => {
     <div className="pl" id="projects">
       <div className="pl-texts">
         <h1 data-aos='fade-up' className="pl-title">CREATION <br/> NODE.JS & REACT</h1>
-        {/* <p className="pl-desc">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eius sint recusandae, nostrum cumque sequi vero dolores, adipisci eos hic modi iusto magni officia libero! Quam error nemo libero laudantium!
-        </p> */}
       </div>
-      <div data-aos='fade-up' className="pl-list">
+      <div className="pl-list" data-aos='fade-up'>
         { productReacts.map((item) =>(
           <Product key={item.id} img={item.img} link={item.link} />
         ))}
