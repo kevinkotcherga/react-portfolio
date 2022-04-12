@@ -6,6 +6,7 @@ import netflix from './img/netflix.png'
 import portfolio from './img/portfolio.png'
 import dashboard from './img/dashboard.png'
 import movies from './img/movies.png';
+import twitter from './img/twitter.png';
 
 export const productReacts = [
 	{
@@ -42,13 +43,18 @@ export const productRails = [
 		link: 'https://ecommerce-dashboard-kotcherga.herokuapp.com/',
 	},
 	{
-		id: 4,
-		img: instagram,
-		link: 'https://instagram-clone-kotcherga.herokuapp.com/',
-	},
-	{
-		id: 5,
+    id: 5,
 		img: portfolio,
 		link: 'https://kevinkotcherga-portfolio.herokuapp.com/',
+	},
+  {
+    id: 4,
+    img: instagram,
+    link: 'https://instagram-clone-kotcherga.herokuapp.com/',
+  },
+	{
+		id: 6,
+		img: twitter,
+		link: 'https://twitter-react-rails.herokuapp.com/',
 	},
 ];
