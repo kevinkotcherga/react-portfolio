@@ -32,7 +32,7 @@ export const Contact = () => {
 
       <div className="c-wrapper">
 
-          <h1 data-aos='fade-up'>RENCONTRONS NOUS</h1>
+          <h1>RENCONTRONS NOUS</h1>
 
         <div className="c-right">
           <form ref={form} onSubmit={sendEmail} className='form-container'>
