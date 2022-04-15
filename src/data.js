@@ -6,7 +6,7 @@ import netflix from './img/netflix.png'
 import portfolio from './img/portfolio.png'
 import dashboard from './img/dashboard.png'
 import movies from './img/movies.png';
-import twitter from './img/twitter.png';
+import medium from './img/medium.png';
 
 export const productReacts = [
 	{
@@ -29,8 +29,8 @@ export const productReacts = [
 export const productRails = [
 	{
 		id: 1,
-		img: ovninb,
-		link: 'https://ovninb.herokuapp.com/',
+		img: portfolio,
+		link: 'https://kevinkotcherga-portfolio.herokuapp.com/',
 	},
 	{
 		id: 2,
@@ -42,19 +42,20 @@ export const productRails = [
 		img: dashboard,
 		link: 'https://ecommerce-dashboard-kotcherga.herokuapp.com/',
 	},
+
 	{
-    id: 5,
-		img: portfolio,
-		link: 'https://kevinkotcherga-portfolio.herokuapp.com/',
+		id: 4,
+		img: instagram,
+		link: 'https://instagram-clone-kotcherga.herokuapp.com/',
 	},
-  {
-    id: 4,
-    img: instagram,
-    link: 'https://instagram-clone-kotcherga.herokuapp.com/',
-  },
+	{
+		id: 5,
+		img: ovninb,
+		link: 'https://ovninb.herokuapp.com/',
+	},
 	{
 		id: 6,
-		img: twitter,
-		link: 'https://twitter-react-rails.herokuapp.com/',
+		img: medium,
+		link: 'https://redux-app-crud-kotcherga.herokuapp.com/',
 	},
 ];

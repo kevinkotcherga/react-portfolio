@@ -9,7 +9,7 @@ import { useEffect } from 'react';
 export const ProductListRails = () => {
 
   useEffect(() => {
-    AOS.init({duration: 1000, delay: 500});
+    AOS.init();
   }, []);
 
   return (
