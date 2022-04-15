@@ -2,16 +2,7 @@ import { useRef, useState } from 'react';
 import './contact.scss';
 import emailjs from '@emailjs/browser';
 
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-import { useEffect } from 'react';
-
 export const Contact = () => {
-
-    useEffect(() => {
-        AOS.init();
-    }, []);
-
   const form = useRef();
   const [done, setDone] = useState(false);
 
@@ -32,7 +23,7 @@ export const Contact = () => {
 
       <div className="c-wrapper">
 
-          <h1>RENCONTRONS NOUS</h1>
+          <h1 data-aos='fade-up' data-aos-duration="1000" data-aos-offset="-700" data-aos-anchorPlacement='top'>RENCONTRONS NOUS</h1>
 
         <div className="c-right">
           <form ref={form} onSubmit={sendEmail} className='form-container'>

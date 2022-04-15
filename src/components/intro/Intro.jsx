@@ -11,7 +11,8 @@ import { useEffect } from 'react';
 const Intro = () => {
 
   useEffect(() => {
-    AOS.init({duration: 1000});
+    AOS.init({once: false, mirror : false});
+    AOS.refresh();
   }, []);
 
   return (
@@ -43,13 +44,13 @@ const Intro = () => {
         </div>
 
         <div className="i-container-big-desc">
-          <h2 data-aos='fade-up' data-aos-duration="2000">DEVELOPPEUR <br/>WEB</h2>
-          <img data-aos='fade-up' src={Computer} alt="computer" className='i-img' />
+          <h2 data-aos='fade-up' data-aos-duration="1000">DEVELOPPEUR <br/>WEB</h2>
+          <img data-aos='fade-up' data-aos-duration="2000" src={Computer} alt="computer" className='i-img' />
         </div>
 
 
 
-        <div data-aos='fade-up' className="i-container-big-name">
+        <div data-aos='fade-up' data-aos-duration="1500" className="i-container-big-name">
           <img className="arrow" src={Arrow} alt="" />
           <h1>KEVIN <br/> KOTCHERGA</h1>
         </div>
