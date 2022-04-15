@@ -1,12 +1,12 @@
-import ovninb from './img/ovninb.png'
-import certification from './img/certification.png'
-import instagram from './img/instagram.png'
-import shop from './img/shop.png';
-import netflix from './img/netflix.png'
-import portfolio from './img/portfolio.png'
-import dashboard from './img/dashboard.png'
-import movies from './img/movies.png';
-import medium from './img/medium.png';
+import ovninb from './img/ovninb.jpg'
+import certification from './img/certification.jpg'
+import instagram from './img/instagram.jpg'
+import shop from './img/shop.jpg';
+import netflix from './img/netflix.jpg'
+import portfolio from './img/portfolio.jpg'
+import dashboard from './img/dashboard.jpg'
+import movies from './img/movies.jpg';
+import medium from './img/medium.jpg';
 
 export const productReacts = [
 	{

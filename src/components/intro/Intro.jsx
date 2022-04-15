@@ -1,4 +1,4 @@
-import Computer from '../../img/computer.png'
+import Computer from '../../img/computer.jpg'
 import Arrow from '../../img/arrow.svg'
 import { HashLink } from 'react-router-hash-link';
 

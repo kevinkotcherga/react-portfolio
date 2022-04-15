@@ -1,5 +1,5 @@
 import './about.scss'
-import window from "../../img/window.png";
+import window from "../../img/window.jpg";
 
 const About = () => {
   return (
