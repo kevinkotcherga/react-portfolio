@@ -45,12 +45,12 @@ const Intro = () => {
 
         <div className="i-container-big-desc">
           <h2 data-aos='fade-up' data-aos-duration="1000">DEVELOPPEUR <br/>WEB</h2>
-          <img data-aos='fade-up' data-aos-duration="2000" src={Computer} alt="computer" className='i-img' />
+          <img data-aos='fade-up' data-aos-duration="1500" src={Computer} alt="computer" className='i-img' />
         </div>
 
 
 
-        <div data-aos='fade-up' data-aos-duration="1500" className="i-container-big-name">
+        <div data-aos='fade-up' data-aos-duration="2000" className="i-container-big-name">
           <img className="arrow" src={Arrow} alt="" />
           <h1>KEVIN <br/> KOTCHERGA</h1>
         </div>
