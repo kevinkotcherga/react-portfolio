@@ -26,7 +26,7 @@ const Intro = () => {
               Kevin Kotcherga
             </div>
             <div data-aos='fade-up' data-aos-duration="1500" className="i-stack-header">
-              Frontend React.js, Next.js & Typescript
+              Frontend React.js & Typescript
             </div>
             <div data-aos='fade-up' data-aos-duration="2000" className="i-city-header">
               Basé à Paris
