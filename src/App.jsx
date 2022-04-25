@@ -7,6 +7,7 @@ import { ProductListRails } from "./components/productListRails/ProductListRails
 import CustomCursor from "./components/CustomCursor/index";
 import CustomCursorManager from "./components/CustomCursor/context/manager";
 import './scss/style.scss'
+import WorkInProgress from "./components/workInProgress/WorkInProgress";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <Intro />
       <ProductList />
       <ProductListRails />
+      <WorkInProgress />
       <About />
       <Contact />
       <Footer />

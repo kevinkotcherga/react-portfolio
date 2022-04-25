@@ -7,6 +7,7 @@ import portfolio from './img/portfolio.jpg'
 import dashboard from './img/dashboard.jpg'
 import movies from './img/movies.jpg';
 import medium from './img/medium.jpg';
+import mysa from './img/mysa.jpg'
 
 export const productReacts = [
 	{
@@ -57,5 +58,13 @@ export const productRails = [
 		id: 6,
 		img: medium,
 		link: 'https://redux-app-crud-kotcherga.herokuapp.com/',
+	},
+];
+
+export const workInProgress = [
+	{
+		id: 1,
+		img: mysa,
+		link: 'https://github.com/kevinkotcherga/mysa-ecommerce',
 	},
 ];
