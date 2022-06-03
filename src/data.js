@@ -1,14 +1,15 @@
-import ovninb from './img/ovninb.jpg'
-import certification from './img/certification.jpg'
-import instagram from './img/instagram.jpg'
+import ovninb from './img/ovninb.jpg';
+import certification from './img/certification.jpg';
+import instagram from './img/instagram.jpg';
 import shop from './img/shop.jpg';
-import netflix from './img/netflix.jpg'
-import portfolio from './img/portfolio.jpg'
-import dashboard from './img/dashboard.jpg'
+import netflix from './img/netflix.jpg';
+import portfolio from './img/portfolio.jpg';
+import dashboard from './img/dashboard.jpg';
 import movies from './img/movies.jpg';
 import medium from './img/medium.jpg';
 import mysa from './img/mysa.jpg';
-import twitter from'./img/twitter.jpg';
+import twitter from './img/twitter.jpg';
+import ratp from './img/ratp.jpg';
 
 export const productReacts = [
 	{
@@ -24,6 +25,11 @@ export const productReacts = [
 	{
 		id: 3,
 		img: movies,
+		link: 'https://react-app-movies-kotcherga.herokuapp.com/',
+	},
+	{
+		id: 4,
+		img: ratp,
 		link: 'https://react-app-movies-kotcherga.herokuapp.com/',
 	},
 ];
