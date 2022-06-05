@@ -30,7 +30,12 @@ export const productReacts = [
 	{
 		id: 4,
 		img: ratp,
-		link: 'https://react-app-movies-kotcherga.herokuapp.com/',
+		link: 'https://nextsubway-7b41f.web.app/',
+	},
+	{
+		id: 5,
+		img: twitter,
+		link: 'https://github.com/kevinkotcherga/twitter-clone-react',
 	},
 ];
 
