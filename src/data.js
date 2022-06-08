@@ -10,6 +10,7 @@ import medium from './img/medium.jpg';
 import mysa from './img/mysa.jpg';
 import twitter from './img/twitter.jpg';
 import ratp from './img/ratp.jpg';
+import atoukids from './img/atoukids.jpg';
 
 export const productReacts = [
 	{
@@ -34,6 +35,11 @@ export const productReacts = [
 	},
 	{
 		id: 5,
+		img: atoukids,
+		link: 'https://github.com/kevinkotcherga/atoukids_clone',
+	},
+	{
+		id: 6,
 		img: twitter,
 		link: 'https://github.com/kevinkotcherga/twitter-clone-react',
 	},
