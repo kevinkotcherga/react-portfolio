@@ -11,6 +11,7 @@ import mysa from './img/mysa.jpg';
 import twitter from './img/twitter.jpg';
 import ratp from './img/ratp.jpg';
 import atoukids from './img/atoukids.jpg';
+import dashboardReact from './img/dashboard-react.jpg';
 
 export const productReacts = [
 	{
@@ -35,8 +36,8 @@ export const productReacts = [
 	},
 	{
 		id: 5,
-		img: atoukids,
-		link: 'https://github.com/kevinkotcherga/atoukids_clone',
+		img: dashboardReact,
+		link: 'https://dashboard-react-kotcherga.web.app/',
 	},
 	{
 		id: 6,
