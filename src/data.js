@@ -12,6 +12,7 @@ import twitter from './img/twitter.jpg';
 import ratp from './img/ratp.jpg';
 import atoukids from './img/atoukids.jpg';
 import dashboardReact from './img/dashboard-react.jpg';
+import nba from './img/nba.jpg';
 
 export const productReacts = [
 	{
@@ -42,6 +43,16 @@ export const productReacts = [
 	{
 		id: 6,
 		img: twitter,
+		link: 'https://github.com/kevinkotcherga/twitter-clone-react',
+	},
+	{
+		id: 6,
+		img: atoukids,
+		link: 'https://github.com/kevinkotcherga/twitter-clone-react',
+	},
+	{
+		id: 6,
+		img: nba,
 		link: 'https://github.com/kevinkotcherga/twitter-clone-react',
 	},
 ];
