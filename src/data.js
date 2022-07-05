@@ -48,12 +48,12 @@ export const productReacts = [
 	{
 		id: 6,
 		img: atoukids,
-		link: 'https://github.com/kevinkotcherga/twitter-clone-react',
+		link: 'https://github.com/kevinkotcherga/atoukids_clone',
 	},
 	{
 		id: 6,
 		img: nba,
-		link: 'https://github.com/kevinkotcherga/twitter-clone-react',
+		link: 'https://nba-app-kotcherga.web.app/',
 	},
 ];
 
