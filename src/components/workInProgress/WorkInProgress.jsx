@@ -14,6 +14,8 @@ const WorkInProgress = () => {
           <img src={mysa} alt="" className='wip__img'/>
         </a>
       </div>
+      {/* Ajout d'un autre projet en cours */}
+
       {/* <div className='right'>
         <div data-aos='fade-up' data-aos-duration="1000" data-aos-offset="-600" data-aos-anchorPlacement='top' className="wip__bottom-right">
           <a href="https://github.com/kevinkotcherga/atoukids_clone" target="_blank" rel="noreferrer" className='wip__link'>
