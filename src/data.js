@@ -27,34 +27,34 @@ export const productReacts = [
 	},
 	{
 		id: 3,
-		img: movies,
-		link: 'https://react-app-movies-kotcherga.herokuapp.com/',
-	},
-	{
-		id: 4,
-		img: ratp,
-		link: 'https://nextsubway-7b41f.web.app/',
-	},
-	{
-		id: 5,
-		img: dashboardReact,
-		link: 'https://dashboard-react-kotcherga.web.app/',
-	},
-	{
-		id: 6,
 		img: twitter,
 		link: 'https://github.com/kevinkotcherga/twitter-clone-react',
 	},
 	{
-		id: 7,
+		id: 4,
+		img: movies,
+		link: 'https://react-app-movies-kotcherga.herokuapp.com/',
+	},
+	{
+		id: 5,
 		img: atoukids,
 		link: 'https://github.com/kevinkotcherga/atoukids_clone',
 	},
 	{
-		id: 8,
+		id: 6,
 		img: nba,
 		link: 'https://nba-app-kotcherga.web.app/',
 	},
+	// {
+	// 	id: 7,
+	// 	img: ratp,
+	// 	link: 'https://nextsubway-7b41f.web.app/',
+	// },
+	// {
+	// 	id: 8,
+	// 	img: dashboardReact,
+	// 	link: 'https://dashboard-react-kotcherga.web.app/',
+	// },
 ];
 
 export const productRails = [
