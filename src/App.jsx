@@ -16,7 +16,7 @@ const App = () => {
       <CustomCursor />
       <Intro />
       <ProductList />
-      <ProductListRails />
+      {/* <ProductListRails /> */}
       <WorkInProgress />
       <About />
       <Contact />
