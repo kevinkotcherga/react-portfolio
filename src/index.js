@@ -1,4 +1,4 @@
-import React from 'react';
+import './fonts/Nagoda/Nagoda.ttf';
 import ReactDOM from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
 

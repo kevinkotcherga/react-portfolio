@@ -7,7 +7,7 @@ export const ProductList = () => {
   return (
     <div className="pl" id="projects">
       <div className="pl-texts">
-        <h1 data-aos='fade-up' data-aos-duration="1000" data-aos-anchorPlacement='top' className="pl-title">MES <br/> PROJETS</h1>
+        <h1 data-aos='fade-up' data-aos-duration="1000" data-aos-anchorPlacement='top' className="pl-title">MES PROJETS</h1>
       </div>
       <div className="pl-list" data-aos='fade-up' data-aos-duration="1500" data-aos-offset="-200">
         { productReacts.map((item) =>(
