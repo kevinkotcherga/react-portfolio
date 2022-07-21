@@ -8,6 +8,7 @@ import CustomCursor from "./components/CustomCursor/index";
 import CustomCursorManager from "./components/CustomCursor/context/manager";
 import './scss/style.scss'
 import WorkInProgress from "./components/workInProgress/WorkInProgress";
+import './fonts/Nagoda/Nagoda.ttf';
 
 const App = () => {
   return (

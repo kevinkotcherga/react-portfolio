@@ -15,8 +15,7 @@
 
 .i-header{
   display: flex;
-  font-size: 1.1vw;
-  font-weight: 600;
+  font-size: 1.2vw;
 
   .i-desc-header{
     display: flex;
@@ -61,8 +60,9 @@
   justify-content: space-between;
 
     h2 {
-    font-size: 8vw;
+    font-size: 9vw;
     font-weight: 900;
+    letter-spacing: 5px;
   }
 }
 
@@ -82,7 +82,8 @@
     position: absolute;
     bottom: 0;
     right: 0;
-    font-size: 8vw;
+    font-size: 9vw;
+    letter-spacing: 5px;
     font-weight: 900;
   }
 

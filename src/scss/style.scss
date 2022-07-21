@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "Nagoda";
+  /*Can be any text*/
+  src: local("Nagoda"),
+    url('../fonts/Nagoda/Nagoda.ttf') format("truetype");
+}
+
+* {
+  font-family: "Nagoda";
+  box-sizing: border-box;
+  margin: 0;
+  cursor: none;
+}
