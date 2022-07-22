@@ -10,8 +10,8 @@ export const ProductList = () => {
         <h1 data-aos='fade-up' data-aos-duration="1000" data-aos-anchorPlacement='top' className="pl-title">MES PROJETS</h1>
       </div>
       <div className="pl-list" data-aos='fade-up' data-aos-duration="1500" data-aos-offset="-200">
-        { productReacts.map((item) =>(
-          <Product key={item.id} img={item.img} link={item.link} />
+        { productReacts.map((project) =>(
+          <Product key={project.id} img={project.img} projectId={project.id} />
         ))}
       </div>
     </div>

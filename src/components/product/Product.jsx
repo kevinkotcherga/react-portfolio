@@ -1,17 +1,12 @@
+import { Link } from 'react-router-dom'
 import './product.scss'
 
-const Product = ({img, link}) => {
+const Product = ({img, projectId}) => {
   return (
     <div className='p'>
-      {/* <div className="p-browser">
-        <div className="p-circle"></div>
-          <div className="p-circle"></div>
-          <div className="p-circle"></div>
-          <div className="p-circle"></div>
-      </div> */}
-      <a href={ link } target="_blank" rel="noreferrer" className='link'>
+      <Link to={`/project/${projectId}`}>
         <img src={img} alt="" className='p-img'/>
-      </a>
+      </Link>
     </div>
   )
 }
